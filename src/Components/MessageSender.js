@@ -26,7 +26,7 @@ function MessageSender() {
       setError(null);
     } else {
       setImage(null);
-      setError("Please select an image file (JPEG / PNG)");
+      setError("Please select an image file (JPEG / PNG / GIF)");
     }
   };
 
