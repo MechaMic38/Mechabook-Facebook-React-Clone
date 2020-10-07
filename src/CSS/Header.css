@@ -1,0 +1,108 @@
+.header {
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #242526;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0 5px 8px -9px rgba(255, 255, 255, 0.75);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 25%;
+}
+.header__left > img {
+  height: 40px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.header__input {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 90%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 33px;
+  transition: box-shadow 100ms ease-in;
+}
+.header__input--focused {
+  box-shadow: inset 0px 0px 5px var(--primary-background);
+}
+.header__input > .MuiSvgIcon-root {
+  color: var(--secondary-text);
+}
+.header__input > input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+  color: #e4e6eb;
+}
+
+.header__center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+.header__option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+  transition: all 100ms ease-in;
+}
+.header__option:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+.header__option > .MuiSvgIcon-root {
+  color: var(--secondary-text);
+  font-size: 2rem !important;
+}
+.header__option:hover > .MuiSvgIcon-root {
+  color: var(--primary-background);
+}
+.header__option--active {
+  border-bottom: 4px solid var(--primary-background);
+}
+.header__option--active > .MuiSvgIcon-root {
+  color: var(--primary-background);
+}
+
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 25%;
+}
+.header__right > .MuiIconButton-root {
+  color: var(--secondary-text) !important;
+}
+.header__right .MuiSvgIcon-root {
+  font-size: 1.3rem !important;
+}
+.header__info {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header__info .MuiAvatar-root {
+  width: 32px !important;
+  height: 32px !important;
+}
+.header__info > h4 {
+  font-size: 14px;
+  margin-left: 10px;
+}

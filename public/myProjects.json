@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Mechazon | Amazon ReactJs clone",
+      "image": "project-mechazon.png",
+      "url": "https://challenge-f0ac9.web.app",
+      "code": "https://github.com/MechaMic38/Mechazon-Amazon-React-Clone"
+    },
+    {
+      "title": "Mechabook | Facebook ReactJs clone",
+      "image": "project-mechabook.png",
+      "url": "https://mecha-book.firebaseapp.com",
+      "code": "https://github.com/MechaMic38/Mechabook-Facebook-React-Clone"
+    },
+    {
+      "title": "Covid-19 Tracker Web App",
+      "image": "project-covid-tracker.png",
+      "url": "https://mechamic38-covid19-tracker.web.app/countryData",
+      "code": "https://github.com/MechaMic38/Covid-19-Tracker-Web-App"
+    },
+    {
+      "title": "Pluda Michael | Front-End Web Developer",
+      "image": "project-portfolio.png",
+      "url": "https://mechamic38.netlify.app",
+      "code": "https://github.com/MechaMic38/Pluda-Michael-Front-End-Web-Developer"
+    }
+  ]
+}

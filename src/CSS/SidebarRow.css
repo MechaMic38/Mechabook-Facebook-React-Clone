@@ -1,0 +1,26 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 100ms ease-in;
+}
+.sidebarRow--centered {
+  justify-content: center;
+}
+.sidebarRow:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.sidebarRow > p {
+  margin-left: 20px;
+  font-weight: 600;
+}
+.sidebarRow > .MuiAvatar-root {
+  width: 32px !important;
+  height: 32px !important;
+}
+.sidebarRow > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: var(--primary-background);
+}

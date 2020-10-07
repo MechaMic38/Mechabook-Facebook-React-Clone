@@ -1,0 +1,9 @@
+.app {
+  position: relative;
+  background-color: #18191a;
+}
+.app__body {
+  position: relative;
+  display: flex;
+  min-height: calc(100vh - 78px);
+}

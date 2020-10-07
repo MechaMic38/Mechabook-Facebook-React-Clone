@@ -1,0 +1,28 @@
+.sidebar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 78px;
+  max-height: 0;
+  min-height: inherit;
+  padding: 25px 10px;
+  flex: 0.2;
+  overflow-y: overlay;
+}
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sidebar::-webkit-scrollbar {
+  width: 10px;
+}
+#sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+#sidebar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 999px;
+}
+#sidebar:hover::-webkit-scrollbar-thumb {
+  background-color: #242526;
+}
